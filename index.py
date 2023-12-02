@@ -97,6 +97,9 @@ def mostrarResultados(driver):
         print(resultado.text)
         print('-----------------------')
 
+# TODO: Filtro de aerolinea
+def filtroAerolinea(driver):
+    return ""
 
 def __main__():
     driver = serviceSelect(explorer='edge')
